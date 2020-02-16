@@ -4,7 +4,5 @@ def square_array(array)
   square **= 2
   new_array = []
   new_array.push(square)
-  puts new_array
-  binding.pry
   end
 end
