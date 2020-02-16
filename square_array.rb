@@ -1,4 +1,4 @@
-
+require "pry"
 def square_array(array)
   array.each do |square|
   square **= 2
@@ -6,4 +6,5 @@ def square_array(array)
   new_array.push(square)
   puts new_array
   end
+  binding.pry
 end
