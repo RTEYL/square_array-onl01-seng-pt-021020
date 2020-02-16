@@ -5,6 +5,6 @@ def square_array(array)
   new_array = []
   new_array.push(square)
   puts new_array
-  end
   binding.pry
+  end
 end
